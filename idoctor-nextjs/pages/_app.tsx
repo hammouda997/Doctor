@@ -18,7 +18,7 @@ const roboto = Roboto_Flex({
 });
 
 export default function App({Component, pageProps}: AppProps) {
-  const [initiated, setInitiated] = useState(false);
+  const [initiated, setInitiated] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
