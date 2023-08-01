@@ -102,32 +102,43 @@ The application should now be accessible at http://localhost:3000 in your web br
 
 ### Authentication
 
-![Authentication](auth-doctor.png)
+![Authentication](![auth-doctor](https://github.com/hammouda997/Doctor/assets/73444157/1e2f451a-be92-4673-b2c2-9d451cc6b0c3))
 *Description: The authentication page allows users to log in with their doctor or kiné account credentials.*
 
 ### Add Prise en Charge
 
-![Add Prise en Charge](add_prise_en_charge.png)
+![prise](https://github.com/hammouda997/Doctor/assets/73444157/0fd1c40b-6620-486b-b816-38785a5bd06d)
 *Description: The "Add Prise en Charge" page provides a form for creating a new medical coverage claim for a patient.*
 
 ### Add Patient
 
-![Add Patient](add_patient.png)
+![patient](https://github.com/hammouda997/Doctor/assets/73444157/e301e6c6-f62e-408a-8506-7498379b36a8)
 *Description: The "Add Patient" page allows users to add a new patient to the clinic's records, including personal and medical details.*
 
 ### Add Product
 
-![Add Product](add_product.png)
+![produit](https://github.com/hammouda997/Doctor/assets/73444157/35a8e6b9-e8cb-4545-8b15-28b1e265ea6f)
 *Description: The "Add Product" page enables users to add new medical products and supplies to the clinic's inventory.*
 
 ### User Accounts
 
-![User Accounts](user_accounts.png)
+![user](https://github.com/hammouda997/Doctor/assets/73444157/0f44a744-b597-45fa-b30b-fd7cd759804b)
 *Description: The "User Accounts" page allows admin users to manage user permissions and access levels for the application.*
+
+### Add visit
+![visit](https://github.com/hammouda997/Doctor/assets/73444157/471caa61-1c06-4c3a-aeff-16aa1a72c029)
+Description: The "Add Visit" page allows users to add a new visit entry to the patient's record, including medical details, diagnosis, and treatment information.
+
+
+### Home
+![home](https://github.com/hammouda997/Doctor/assets/73444157/72e1fdcc-3660-4f89-9f6f-3c5d6792e682)
+Description: The "Home" page serves as the main dashboard, providing an overview of the clinic's appointments, patients, and recent activities.
+
+
 
 ### Calendar View
 
-![Calendar View](calendar_view.png)
+![program](https://github.com/hammouda997/Doctor/assets/73444157/af8609df-e1be-4531-8b5e-9bbb84b927e8)
 *Description: The "Calendar View" provides an intuitive interface for doctors and kinés to manage appointments, schedule events, and view availability.*
 
 [Note: Replace the file names (e.g., auth.png, add_prise_en_charge.png) with the actual names of your screenshot files. Make sure to place the screenshots in the same directory as your README file.]
