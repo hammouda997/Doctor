@@ -127,12 +127,12 @@ The application should now be accessible at http://localhost:3000 in your web br
 
 ### Add visit
 ![visit](https://github.com/hammouda997/Doctor/assets/73444157/471caa61-1c06-4c3a-aeff-16aa1a72c029)
-Description: The "Add Visit" page allows users to add a new visit entry to the patient's record, including medical details, diagnosis, and treatment information.
+*Description: The "Add Visit" page allows users to add a new visit entry to the patient's record, including medical details, diagnosis, and treatment information.
 
 
 ### Home
 ![home](https://github.com/hammouda997/Doctor/assets/73444157/72e1fdcc-3660-4f89-9f6f-3c5d6792e682)
-Description: The "Home" page serves as the main dashboard, providing an overview of the clinic's appointments, patients, and recent activities.
+*Description: The "Home" page serves as the main dashboard, providing an overview of the clinic's appointments, patients, and recent activities.
 
 
 
@@ -141,5 +141,4 @@ Description: The "Home" page serves as the main dashboard, providing an overview
 ![program](https://github.com/hammouda997/Doctor/assets/73444157/af8609df-e1be-4531-8b5e-9bbb84b927e8)
 *Description: The "Calendar View" provides an intuitive interface for doctors and kinés to manage appointments, schedule events, and view availability.*
 
-[Note: Replace the file names (e.g., auth.png, add_prise_en_charge.png) with the actual names of your screenshot files. Make sure to place the screenshots in the same directory as your README file.]
 
