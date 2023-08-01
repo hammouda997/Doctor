@@ -103,7 +103,7 @@ The application should now be accessible at http://localhost:3000 in your web br
 ### Authentication
 
 ![auth-doctor](https://github.com/hammouda997/Doctor/assets/73444157/f4ff0759-c1dd-41ba-a12f-34bacff93723)
-*The authentication page allows users to log in with their doctor or kiné account credentials.
+* The authentication page allows users to log in with their doctor or kiné account credentials.
 
 ### Add Prise en Charge
 
@@ -114,7 +114,7 @@ The application should now be accessible at http://localhost:3000 in your web br
 
 ![patient](https://github.com/hammouda997/Doctor/assets/73444157/e301e6c6-f62e-408a-8506-7498379b36a8)
 <br>
-*The "Add Patient" page allows users to add a new patient to the clinic's records, including personal and medical details.
+* The "Add Patient" page allows users to add a new patient to the clinic's records, including personal and medical details.
 
 ### Add Product
 
