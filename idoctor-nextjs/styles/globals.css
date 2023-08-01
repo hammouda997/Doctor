@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .splide__pagination.splide__pagination-cards {
+        @apply static mt-2;
+    }
+    .splide__pagination.splide__pagination-crypto {
+        @apply -top-10 left-auto right-0 bottom-auto;
+    }
+    .splide__pagination .splide__pagination__page {
+        @apply mx-1 bg-purple-3;
+    }
+    .splide__pagination .splide__pagination__page.is-active {
+        @apply bg-purple-1 scale-100;
+    }
+}
