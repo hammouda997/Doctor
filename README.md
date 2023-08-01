@@ -103,27 +103,28 @@ The application should now be accessible at http://localhost:3000 in your web br
 ### Authentication
 
 ![auth-doctor](https://github.com/hammouda997/Doctor/assets/73444157/f4ff0759-c1dd-41ba-a12f-34bacff93723)
-*he authentication page allows users to log in with their doctor or kiné account credentials.*
+*The authentication page allows users to log in with their doctor or kiné account credentials.*
 
 ### Add Prise en Charge
 
 ![prise](https://github.com/hammouda997/Doctor/assets/73444157/0fd1c40b-6620-486b-b816-38785a5bd06d)
-* The "Add Prise en Charge" page provides a form for creating a new medical coverage claim for a patient.*
+* This page provides a form for creating a new medical coverage claim for a patient.*
 
 ### Add Patient
 
 ![patient](https://github.com/hammouda997/Doctor/assets/73444157/e301e6c6-f62e-408a-8506-7498379b36a8)
-*The "Add Patient" page allows users to add a new patient to the clinic's records, including personal and medical details.*
+*The "Add Patient" page allows users to add a new patient to the clinic's records, including personal and medical details.
 
 ### Add Product
 
 ![produit](https://github.com/hammouda997/Doctor/assets/73444157/35a8e6b9-e8cb-4545-8b15-28b1e265ea6f)
-* The "Add Product" page enables users to add new medical products and supplies to the clinic's inventory.*
+* The "Add Product" page enables users to add new medical products and supplies to the clinic's inventory.
 
 ### User Accounts
 
 ![user](https://github.com/hammouda997/Doctor/assets/73444157/0f44a744-b597-45fa-b30b-fd7cd759804b)
-*Description: The "User Accounts" page allows admin users to manage user permissions and access levels for the application.*
+<br>
+* The "User Accounts" page allows admin users to manage user permissions and access levels for the application.
 
 ### Add visit
 ![visit](https://github.com/hammouda997/Doctor/assets/73444157/471caa61-1c06-4c3a-aeff-16aa1a72c029)
@@ -139,6 +140,6 @@ The application should now be accessible at http://localhost:3000 in your web br
 ### Calendar View
 
 ![program](https://github.com/hammouda997/Doctor/assets/73444157/af8609df-e1be-4531-8b5e-9bbb84b927e8)
-* The "Calendar View" provides an intuitive interface for doctors and kinés to manage appointments, schedule events, and view availability.*
+* The "Calendar View" provides an intuitive interface for doctors and kinés to manage appointments, schedule events, and view availability.
 
 
