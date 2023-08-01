@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "declarationMap": true,
+    "outDir": "./dist/",
+    "declaration": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "baseUrl": "src",
+    "rootDir": "src",
+    "paths": {
+      "utils": ["utils"],
+      "server": ["server"],
+      "controllers/*": ["controllers/*"],
+      "middleware/*": ["middleware/*"],
+      "config/*": ["config/*"],
+      "seeders/*": ["seeders/*"],
+      "constants/*": ["constants/*"],
+      "helpers/*": ["helpers/*"],
+      "errors/*": ["errors/*"],
+      "locales/*": ["locales/*"],
+      "models/*": ["models/*"],
+      "validators/*": ["validators/*"],
+      "types/*": ["types/*"],
+      "utils/*": ["utils/*"],
+      "libs/*": ["libs/*"],
+      "databases/*": ["databases/*"]
+    },
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": false,
+    "useUnknownInCatchVariables": false,
+    "isolatedModules": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*.ts", "declaration.d.ts"],
+  "exclude": ["node_modules", "lib", "public"],
+  "ts-node": {
+    "files": true,
+    "require": ["tsconfig-paths/register"]
+  }
+}

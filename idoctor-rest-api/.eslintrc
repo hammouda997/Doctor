@@ -1,0 +1,101 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:jest/recommended",
+    "plugin:security/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "ignorePatterns": [
+    "node_modules",
+    "build",
+    "dist",
+    "bin",
+    "package.json",
+    "*.d.ts",
+    "swagger.json"
+  ],
+  "plugins": ["prettier", "@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "warn",
+    "no-underscore-dangle": "off",
+    "no-restricted-globals": "off",
+    "linebreak-style": "off",
+    "no-extra-parens": "off",
+    "no-return-await": "off",
+    "no-await-in-loop": "off",
+    "no-plusplus": "off",
+    "max-lines": ["warn", 180],
+    "space-before-function-paren": "off",
+    "prefer-arrow-callback": ["error", { "allowNamedFunctions": false }],
+    "no-shadow": "off",
+    "camelcase": "off",
+    "prefer-const": "error",
+    "prefer-destructuring": [
+      "error",
+      {
+        "VariableDeclarator": {
+          "array": false,
+          "object": true
+        },
+        "AssignmentExpression": {
+          "array": true,
+          "object": true
+        }
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+    "no-confusing-arrow": ["error", { "allowParens": false }],
+    "no-mixed-operators": "error",
+    "no-unexpected-multiline": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrow-parens": "avoid",
+        "endOfLine": "auto"
+      }
+    ],
+    "arrow-body-style": ["error", "as-needed"],
+    "no-console": "warn",
+    "no-const-assign": "error",
+    "import/extensions": "off",
+    "no-var": "error",
+    "no-param-reassign": "off",
+    "sort-imports": "off",
+    "no-new-require": "error",
+    "max-len": ["error", { "code": 200 }],
+    "prefer-promise-reject-errors": ["off"],
+    "no-return-assign": ["off"],
+    "import/no-cycle": [0, { "maxDepth": 3 }],
+    "import/imports-first": 0,
+    "import/newline-after-import": "error",
+    "import/no-dynamic-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-named-as-default": 0,
+    "import/no-unresolved": 0,
+    "import/no-webpack-loader-syntax": 0,
+    "import/prefer-default-export": 0,
+    "no-use-before-define": 0,
+    "prefer-template": 2,
+    "require-yield": 0,
+    "@typescript-eslint/naming-convention": "off",
+    "arrow-spacing": "error"
+  }
+}
