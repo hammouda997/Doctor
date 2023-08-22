@@ -28,36 +28,6 @@ To get the application up and running locally, follow these simple steps:
 
 1. Clone the repository to your local machine:
 
-# Doctor Management Application
-
-The Doctor Management Application is a web-based platform designed to streamline the management of doctor and kiné (kinesiologist) cabinets. This application provides efficient tools to manage patients, products, and users, allowing healthcare professionals to easily organize their practice.
-
-## Features
-
-- **Patient Management:** Easily add, edit, and view patient records, including personal details, medical history, and appointment information.
-
-- **Product Inventory:** Maintain a comprehensive inventory of medical products, equipment, and supplies used in the clinic.
-
-- **User Accounts:** Manage user accounts for both doctors and kinés, each with their respective permissions and access levels.
-
-## Technologies Used
-
-- **Frontend:**
-  - React.js: A powerful JavaScript library for building user interfaces.
-  - Next.js: A framework for server-side rendering and enhanced performance.
-  - Axios: A popular library for making API requests.
-
-- **Backend:**
-  - Node.js: A versatile server-side runtime for building scalable applications.
-  - Express: A fast and minimalistic web application framework for Node.js.
-  - MongoDB: A flexible and scalable NoSQL database for storing data.
-
-## Installation
-
-To get the application up and running locally, follow these simple steps:
-
-1. Clone the repository to your local machine:
-
 git clone https://github.com/hammouda997/doctor-management-app.git
 
 2. Change into the project directory
